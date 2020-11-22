@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fluid memory",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Playing",
+                    "slots": [
+                        {
+                            "name": "Color",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "Is it {Color}",
+                        "I think it was {Color}",
+                        "My color choice is {Color}",
+                        "{Color}"
+                    ]
+                },
+                {
+                    "name": "Score",
+                    "slots": [],
+                    "samples": [
+                        "what is my current score and level",
+                        "what level and i on",
+                        "level",
+                        "score",
+                        "What is my score"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
